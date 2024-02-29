@@ -12,7 +12,7 @@ export const generateStaticParams = () => {
 export default function Home() {
   return (
     <div className="font-bold p-2 w-[100vw] h-[100vh]">
-      <div className="bg-purple-600 w-full h-full flex justify-between">
+      <div className="w-full h-full flex justify-between">
         <Sections></Sections>
         <div className="text-black">
           <SectionTiles></SectionTiles>
