@@ -15,7 +15,11 @@ const Sections = () => {
   } else {
     section = <AboutSection></AboutSection>;
   }
-  return section;
+  return (
+    <div className="p-12 w-full border-y-4 border-l-4 border-K-BLACK">
+      {section}
+    </div>
+  );
 };
 
 export default Sections;
