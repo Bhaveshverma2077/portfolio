@@ -11,11 +11,16 @@ const Skills = () => {
       ></SkillTile>
       <SkillTile imgUrl={"/images/nodejs.png"} name={"nodejs"}></SkillTile>
       <SkillTile imgUrl={"/images/mongodb.png"} name={"mongodb"}></SkillTile>
-      <SkillTile imgUrl={"/images/reactjs.png"} name={"react js"}></SkillTile>
-      <SkillTile imgUrl={"/images/redux.png"} name={"redux"}></SkillTile>
-      <SkillTile imgUrl={"/images/nextjs.png"} name={"nextjs"}></SkillTile>
+      <SkillTile imgUrl={"/images/redis.png"} name={"redis"}></SkillTile>
+      <SkillTile imgUrl={"/images/angular.png"} name={"angular"}></SkillTile>
+
       <SkillTile imgUrl={"/images/flutter.png"} name={"flutter"}></SkillTile>
       <SkillTile imgUrl={"/images/tailwind.png"} name={"tailwind"}></SkillTile>
+      <SkillTile name={"relay"}></SkillTile>
+      <SkillTile
+        imgUrl={"/images/apollo.png"}
+        name={"apollo server and client"}
+      ></SkillTile>
       <SkillTile
         imgUrl={"/images/typescript.png"}
         name={"typescript"}
