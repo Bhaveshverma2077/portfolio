@@ -4,6 +4,7 @@ import SocialLinkTile from "./SocialLinkTile";
 import GithubIcon from "./icons/GithubIcon";
 import LinkedinIcon from "./icons/LinkedInIcon";
 import Modal from "./Modal";
+import AboutSectionMainAnimation from "./AboutSectionMainAnimation";
 import { useRouter, useSearchParams } from "next/navigation";
 
 const AboutSection = () => {
@@ -11,21 +12,10 @@ const AboutSection = () => {
 
   const showModal = searchParams.get("modal")?.toLowerCase();
   return (
-    <div className="relative">
+    <div className="relative overflow-hidden">
       <TalkButton></TalkButton>
       {showModal === "true" && <Modal></Modal>}
-      {/* <div className="relative">
-        {Array.from({ length: 30 }).map((_, i) => {
-          return (
-            <div
-              style={{
-                animation: `wiggle 6s ease-in-out ${20 * i}ms infinite`,
-              }}
-              className="-z-10 -right-36 absolute animate-wiggle bg-K-GREY-DARK w-[60rem] h-[2px] opacity-50"
-            ></div>
-          );
-        })}
-      </div> */}
+      <AboutSectionMainAnimation />
       <DecoratedProfileImage></DecoratedProfileImage>
       <p className="text-5xl text-K-GREY-LIGHT">
         HELLO THERE<span className="text-K-ASCENT">,</span>

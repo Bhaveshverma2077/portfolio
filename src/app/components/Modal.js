@@ -4,7 +4,7 @@ import DocumentIcon from "./icons/DocumentIcon";
 
 const Modal = () => {
   return (
-    <div className="absolute z-10 bg-black top-0 right-0 border-K-ASCENT border-2 p-6">
+    <div className="absolute z-10 bg-black top-4 right-0 border-K-ASCENT border-2 p-6">
       <Link
         href={"?modal=false"}
         className="transition-transform hover:scale-[1.1] hover:text-black hover:bg-K-ASCENT absolute bg-black -left-4 -top-4 border-2 border-K-ASCENT h-10 w-10 flex items-center justify-center"
