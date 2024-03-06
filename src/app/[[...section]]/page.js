@@ -11,7 +11,7 @@ export const generateStaticParams = () => {
 
 export default function Home() {
   return (
-    <div className="font-bold p-2 w-[100vw] h-[100vh]">
+    <div className="font-semibold p-2 w-[100vw] h-[100vh]">
       <div className="w-full h-full flex justify-between">
         <Sections></Sections>
         <div className="text-black">

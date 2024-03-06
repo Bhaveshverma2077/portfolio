@@ -1,6 +1,6 @@
 const AboutSectionMainAnimation = () => {
   return (
-    <div className="-z-10 absolute -bottom-16 right-[38rem]">
+    <div className="-z-10 absolute -bottom-60 right-[38rem]">
       {Array.from({ length: 50 }).map((_, i) => {
         return (
           <div

@@ -1,0 +1,28 @@
+import SocialLinkTile from "./SocialLinkTile";
+import GithubIcon from "./icons/GithubIcon";
+import LinkedinIcon from "./icons/LinkedInIcon";
+import EmailIcon from "./icons/EmailIcon";
+
+const SocialLinks = () => {
+  return (
+    <div className="flex flex-col">
+      <SocialLinkTile
+        icon={<GithubIcon />}
+        name={"GITHUB"}
+        href={"https://github.com/Bhaveshverma2077"}
+      ></SocialLinkTile>
+      <SocialLinkTile
+        icon={<LinkedinIcon />}
+        name={"Linkedin"}
+        href={"#"}
+      ></SocialLinkTile>
+      <SocialLinkTile
+        icon={<EmailIcon />}
+        name={"Email"}
+        href={"#"}
+      ></SocialLinkTile>
+    </div>
+  );
+};
+
+export default SocialLinks;
