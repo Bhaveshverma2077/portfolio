@@ -6,10 +6,10 @@ const IMGURL =
 
 const DecoratedProfileImage = () => {
   return (
-    <div className="my-4 relative">
+    <div className="mb-12 mt-20 relative">
       <DecoratedLines></DecoratedLines>
       <Image
-        className="h-44 w-44 object-cover"
+        className="h-44 w-44 object-cover  hover:scale-110 transition-transform"
         src={IMGURL}
         width={300}
         height={300}
