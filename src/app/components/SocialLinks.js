@@ -19,7 +19,8 @@ const SocialLinks = () => {
       <SocialLinkTile
         icon={<EmailIcon />}
         name={"Email"}
-        href={"#"}
+        href={"mailto:bhaveshverma2077@gmail.com"}
+        text={"bhaveshverma2077@gmail.com"}
       ></SocialLinkTile>
     </div>
   );

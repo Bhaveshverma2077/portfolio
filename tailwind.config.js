@@ -26,9 +26,17 @@ module.exports = {
             opacity: 1,
           },
         },
+        fade_translate: {
+          "0%": { transform: "translate(100px,0)", opacity: 0 },
+          "100%": {
+            transform: "translate(0,0)",
+            opacity: 1,
+          },
+        },
       },
       animation: {
         flow: "flow 2s linear infinite",
+        fade_translate: "fade_translate 0.3s linear",
       },
     },
   },

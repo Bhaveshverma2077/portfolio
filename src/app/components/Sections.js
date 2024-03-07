@@ -16,9 +16,7 @@ const Sections = () => {
     section = <AboutSection></AboutSection>;
   }
   return (
-    <div className="overflow-hidden w-full border-y-4 border-l-4 border-K-BLACK">
-      {section}
-    </div>
+    <div className="w-full border-y-4 border-l-4 border-K-BLACK">{section}</div>
   );
 };
 

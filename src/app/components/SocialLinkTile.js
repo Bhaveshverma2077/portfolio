@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const SocialLinkTile = ({ icon, name, href }) => {
+const SocialLinkTile = ({ icon, name, text, href }) => {
   return (
     <div className="flex gap-6 items-center group">
       <Link href={href} className="flex items-center">
@@ -10,7 +10,7 @@ const SocialLinkTile = ({ icon, name, href }) => {
         <p className="text-sm">{name}</p>
       </Link>
       <p className="text-K-ASCENT text-[0.8rem] hidden group-hover:block">
-        {href}
+        {text ?? href}
       </p>
     </div>
   );

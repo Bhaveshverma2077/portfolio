@@ -7,25 +7,28 @@ import AngularSkills from "./Skills/AngularSkills";
 import AwsSkills from "./Skills/AwsSkills";
 
 const Title = (props) => (
-  <p className="text-K-ASCENT text-lg tracking-[2px] pb-4">{props.name}</p>
+  <p className="text-lg tracking-[2px] pb-4">{props.name}</p>
 );
 const SkillsAndExperienceSection = () => {
   return (
-    <div className="p-12">
-      <Title name={"Basic"}></Title>
-      <BasicSkills />
-      <Title name={"Server Skills"}></Title>
-      <ServerSkills />
-      <Title name={"Database Skills"}></Title>
-      <DatabaseSkills />
-      <Title name={"React Skills"}></Title>
-      <ReactSkills />
-      <Title name={"Angular Skills"}></Title>
-      <AngularSkills />
-      <Title name={"GraphQl Skills"}></Title>
-      <GraphQLSkills />
-      <Title name={"AWS Skills"}></Title>
-      <AwsSkills />
+    <div className="overflow-y-scroll custom_scrollbar h-full w-full drag">
+      <div className="p-12">
+        <p className="text-K-ASCENT text-3xl tracking-[6px] pb-8">SKILLS</p>
+        <Title name={"Basic"}></Title>
+        <BasicSkills />
+        <Title name={"Server"}></Title>
+        <ServerSkills />
+        <Title name={"Database"}></Title>
+        <DatabaseSkills />
+        <Title name={"React"}></Title>
+        <ReactSkills />
+        <Title name={"Angular"}></Title>
+        <AngularSkills />
+        <Title name={"GraphQl"}></Title>
+        <GraphQLSkills />
+        <Title name={"AWS"}></Title>
+        <AwsSkills />
+      </div>
     </div>
   );
 };
