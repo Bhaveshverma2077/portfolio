@@ -1,10 +1,10 @@
-import BasicSkills from "./Skills/BasicSkills";
-import ServerSkills from "./Skills/ServerSkills";
-import DatabaseSkills from "./Skills/DatabaseSkills";
-import GraphQLSkills from "./Skills/GraphQLSkills";
-import ReactSkills from "./Skills/ReactSkills";
-import AngularSkills from "./Skills/AngularSkills";
-import AwsSkills from "./Skills/AwsSkills";
+import BasicSkills from "./components/Skills/BasicSkills";
+import ServerSkills from "./components/Skills/ServerSkills";
+import DatabaseSkills from "./components/Skills/DatabaseSkills";
+import GraphQLSkills from "./components/Skills/GraphQLSkills";
+import ReactSkills from "./components/Skills/ReactSkills";
+import AngularSkills from "./components/Skills/AngularSkills";
+import AwsSkills from "./components/Skills/AwsSkills";
 
 const Title = (props) => (
   <p className="text-lg tracking-[2px] pb-4">{props.name}</p>
