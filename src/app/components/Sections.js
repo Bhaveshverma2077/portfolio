@@ -1,9 +1,9 @@
 "use client";
 
 import { usePathname } from "next/navigation";
-import ProjectsSection from "./ProjectsSection";
-import SkillsAndExperienceSection from "./SkillsAndExperienceSection";
-import AboutSection from "./AboutSection";
+import ProjectsSection from "./Sections/ProjectsSection/ProjectsSection";
+import SkillsAndExperienceSection from "./Sections/SkillsAndExperienceSection/SkillsAndExperienceSection";
+import AboutSection from "./Sections/AboutSection/AboutSection";
 
 const Sections = () => {
   const path = usePathname();
