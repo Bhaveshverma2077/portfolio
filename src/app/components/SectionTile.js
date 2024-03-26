@@ -8,7 +8,11 @@ const SectionTile = ({ name, isActive, href }) => {
         isActive ? "bg-K-ASCENT" : ""
       } h-full w-full flex justify-center items-center`}
     >
-      <p className={`font-semibold ${isActive ? "text-black" : "text-white"}`}>
+      <p
+        className={`text-[0.7rem] text-nowrap font-semibold ${
+          isActive ? "text-black" : "text-white"
+        } rotate-90 md:rotate-0`}
+      >
         {name}
       </p>
     </Link>
