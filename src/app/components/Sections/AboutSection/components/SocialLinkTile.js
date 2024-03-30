@@ -9,7 +9,7 @@ const SocialLinkTile = ({ icon, name, text, href }) => {
         </div>
         <p className="text-sm">{name}</p>
       </Link>
-      <p className="text-K-ASCENT text-[0.8rem] hidden group-hover:block">
+      <p className="text-K-ASCENT text-[0.8rem] hidden md:group-hover:block">
         {text ?? href}
       </p>
     </div>
