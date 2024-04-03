@@ -12,7 +12,7 @@ const Title = (props) => (
 const SkillsAndExperienceSection = () => {
   return (
     <div className="overflow-y-scroll custom_scrollbar h-full w-full drag">
-      <div className="p-12">
+      <div className="p-6 md:p-12">
         <p className="text-K-ASCENT text-3xl tracking-[6px] pb-8">SKILLS</p>
         <Title name={"Basic"}></Title>
         <BasicSkills />
