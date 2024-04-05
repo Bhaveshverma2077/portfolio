@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const SkillTile = ({ imgUrl, name }) => {
   return (
-    <div className="px-2 gap-2 w-1/3 h-12  flex items-center">
+    <div className="px-2 gap-2 w-full md:w-1/3 h-12  flex items-center">
       <Image
         className="w-8 h-8"
         src={imgUrl ?? "/images/module.png"}
