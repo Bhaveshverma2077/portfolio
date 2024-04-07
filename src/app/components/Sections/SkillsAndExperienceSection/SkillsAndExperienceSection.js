@@ -22,8 +22,8 @@ const SkillsAndExperienceSection = () => {
         <DatabaseSkills />
         <Title name={"React"}></Title>
         <ReactSkills />
-        <Title name={"Angular"}></Title>
-        <AngularSkills />
+        {/* <Title name={"Angular"}></Title>
+        <AngularSkills /> */}
         <Title name={"GraphQl"}></Title>
         <GraphQLSkills />
         <Title name={"AWS"}></Title>
