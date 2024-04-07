@@ -14,7 +14,7 @@ const SocialLinks = () => {
       <SocialLinkTile
         icon={<LinkedinIcon />}
         name={"Linkedin"}
-        href={"#"}
+        href={"https://www.linkedin.com/in/bhavesh-verma-737a762b9/"}
       ></SocialLinkTile>
       <SocialLinkTile
         icon={<EmailIcon />}
