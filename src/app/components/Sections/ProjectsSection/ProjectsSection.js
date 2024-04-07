@@ -6,19 +6,19 @@ const ProjectsSection = () => {
       <ProjectTile
         name={"movies app"}
         imageUrl={"/images/projects/movies_app.png"}
-        deployLink={"/something"}
+        deployLink={"#"}
         githubRepoLink={"https://github.com/Bhaveshverma2077/Movies-App"}
       ></ProjectTile>
       <ProjectTile
         name={"shopping app"}
         imageUrl={"/images/projects/shopping_app.png"}
-        deployLink={"/something"}
+        deployLink={"#"}
         githubRepoLink={"https://github.com/Bhaveshverma2077/shopping-app"}
       ></ProjectTile>
       <ProjectTile
         name={"portfolio"}
         imageUrl={"/images/projects/portfolio.png"}
-        deployLink={"/something"}
+        deployLink={"#"}
         githubRepoLink={"https://github.com/Bhaveshverma2077/portfolio"}
       ></ProjectTile>
     </div>

@@ -10,6 +10,7 @@ const ProjectTile = ({ name, githubRepoLink, deployLink, imageUrl }) => {
         <Image
           className="object-cover origin-left hover:scale-110 transition-transform"
           src={imageUrl}
+          alt=""
           fill
         ></Image>
       </div>
