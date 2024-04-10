@@ -24,10 +24,13 @@ const ModalContent = (props) => {
         Contact Me: <br />
         <span className="text-K-ASCENT">bhaveshverma2077@gmail.com</span>
       </p>
-      <div className="cursor-pointer flex gap-2 hover:gap-3 transition-[gap,padding] items-center hover:bg-K-GREY-DARK py-1 hover:px-2">
+      <a
+        href="/resume.pdf"
+        className="cursor-pointer flex gap-2 hover:gap-3 transition-[gap,padding] items-center hover:bg-K-GREY-DARK py-1 hover:px-2"
+      >
         <p className="text-K-ASCENT text-[0.8rem]">RESUME</p>
         <DocumentIcon></DocumentIcon>
-      </div>
+      </a>
     </>
   );
 };
