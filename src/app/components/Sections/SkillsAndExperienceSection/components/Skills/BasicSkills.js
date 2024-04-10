@@ -6,6 +6,7 @@ const BasicSkills = () => {
     <SkillTilesWrapper>
       <SkillTile imgUrl={"/images/html5.png"} name={"html5"}></SkillTile>
       <SkillTile imgUrl={"/images/css.png"} name={"css"}></SkillTile>
+      <SkillTile imgUrl={"/images/python.png"} name={"python"}></SkillTile>
       <SkillTile
         imgUrl={"/images/javascript.png"}
         name={"javascript"}
@@ -15,6 +16,7 @@ const BasicSkills = () => {
         name={"typescript"}
       ></SkillTile>
       <SkillTile imgUrl={"/images/flutter.png"} name={"flutter"}></SkillTile>
+      <SkillTile name={"linux"}></SkillTile>
     </SkillTilesWrapper>
   );
 };
