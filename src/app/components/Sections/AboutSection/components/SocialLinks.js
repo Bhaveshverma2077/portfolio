@@ -1,6 +1,6 @@
 import SocialLinkTile from "./SocialLinkTile";
 import GithubIcon from "../../../icons/GithubIcon";
-import LinkedinIcon from "../../../icons/LinkedInIcon";
+import LinkedinIcon from "../../../icons/LinkedinIcon";
 import EmailIcon from "../../../icons/EmailIcon";
 
 const SocialLinks = () => {
