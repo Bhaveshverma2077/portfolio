@@ -1,6 +1,6 @@
 import SocialLinkTile from "./SocialLinkTile";
 import GithubIcon from "../../../icons/GithubIcon";
-// import LinkedinIcon from "../../../icons/LinkedInIcon";
+import LinkedinIcon from "../../../icons/LinkedInIcon";
 import EmailIcon from "../../../icons/EmailIcon";
 
 const SocialLinks = () => {
@@ -11,11 +11,11 @@ const SocialLinks = () => {
         name={"GITHUB"}
         href={"https://github.com/Bhaveshverma2077"}
       ></SocialLinkTile>
-      {/* <SocialLinkTile
+      <SocialLinkTile
         icon={<LinkedinIcon />}
         name={"Linkedin"}
-        href={"https://www.linkedin.com/in/bhavesh-verma-737a762b9/"}
-      ></SocialLinkTile> */}
+        href={"https://www.linkedin.com/in/bhaveshverma1/"}
+      ></SocialLinkTile>
       <SocialLinkTile
         icon={<EmailIcon />}
         name={"Email"}

@@ -28,9 +28,17 @@ const ProjectTile = ({ name, githubRepoLink, deployLink, imageUrl }) => {
         </Link>
         <Link
           href={deployLink}
-          className="hover:bg-K-GREY-DARK border border-K-GREY-LIGHT w-1/4 h-12 flex items-center justify-center"
+          className={`${
+            deployLink == "#" ? "bg-K-GREY-LIGHT" : "bg-K-ASCENT"
+          } border border-K-GREY-LIGHT w-1/4 h-12 flex items-center justify-center text-black group`}
         >
-          <CheronRightIcon></CheronRightIcon>
+          <div
+            className={`${
+              deployLink == "#" ? "" : "group-hover:scale-125"
+            } transition-transform`}
+          >
+            <CheronRightIcon></CheronRightIcon>
+          </div>
         </Link>
       </div>
     </div>

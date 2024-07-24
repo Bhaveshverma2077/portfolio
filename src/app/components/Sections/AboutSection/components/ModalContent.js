@@ -1,6 +1,7 @@
 import DocumentIcon from "../../../icons/DocumentIcon";
 import BackspaceIcon from "../../../icons/BackspaceButton";
 import Link from "next/link";
+import { aboutMe } from "../../../../data";
 
 const ModalContent = (props) => {
   return (
@@ -15,10 +16,7 @@ const ModalContent = (props) => {
       <p className="text-zinc-600 text-[0.8rem] pb-4 text-wrap">
         <span className="text-white text-lg">Hello,</span>
         <br />
-        As someone who is passionate about User Interface, I thoroughly enjoy
-        crafting and building web designs. My creations are not only visually
-        appealing but also highly interactive, delivering a seamless experience.
-        I hope my work resonates with you.
+        {aboutMe}
       </p>
       <p className="text-[0.8rem] py-2">
         Contact Me: <br />
