@@ -1,5 +1,7 @@
 # Portfolio Website
 
+[![deployed badge](https://img.shields.io/badge/Status-Deployed-brightgreen)](https://portfolio-2vug.vercel.app/)
+
 This portfolio website, built with React.js, Next.js, and Tailwind CSS, offers a straightforward design with three main pages. The About page provides insights into my background, while the Projects section showcases my past work. Lastly, the Skills page details the areas in which I excel.
 
 [Deploy Link](https://portfolio-2vug.vercel.app/)
