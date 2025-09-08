@@ -1,7 +1,35 @@
-export const aboutMe = `I am a recent graduate passionate about continuous learning and
-self-improvement. I am actively seeking a position in a company
-that fosters a culture of growth and mutual respect. My background lies
-in web development, and I also have a keen interest in software development and UI/UX design.`;
+export const aboutMe = `Hi, I’m Bhavesh Verma — a Software Engineer focused on building high-performance systems, distributed architectures, and full-stack applications. At Sound of Meme, an AI-driven music generation platform, I’ve scaled infrastructure to support millions of tracks during viral spikes, migrated systems to Kubernetes (EKS), and re-architected the backend for improved reliability and speed.
+
+I'm passionate about solving complex problems at scale. Always open to new opportunities and collaborations — let’s connect!`;
+
+export const experience = [
+  {
+    title: "Software Engineer / Platform Engineer",
+    company: "Sound of Meme – Music Generation Platform",
+    duration: "October 2024 - Present",
+    description: [
+      "Led the scaling of core platform infrastructure, enabling the system to handle millions of AI-generated songs during traffic spikes and viral events.",
+      "Migrated infrastructure from EC2 to Kubernetes (Amazon EKS), improving deployment agility, resource utilization, and scalability.",
+      "Re-architected backend from a monolithic, tightly-coupled system to a distributed worker-based architecture, significantly increasing fault tolerance and parallel processing capabilities.",
+      "Built and maintained integration pipelines with external platforms like YouTube, allowing users to generate music inspired by audio extracted from video content."
+    ]
+  },
+  {
+    title: "Full Stack Developer",
+    company: "Persist Ventures",
+    duration: "October 2024 - Present",
+    description: "Collaborated with Persist Ventures through one of their supported ventures, Sound of Meme."
+  },
+  {
+    title: "Software Engineer Intern",
+    company: "Ekalakaar",
+    duration: "August 2023 - October 2023",
+    description: [
+      "Decoupled image processing tasks using Amazon SQS workers, resulting in a 40% reduction in server load, thereby decreasing latency by 30%.",
+      "Implemented Redis caching for hot queries, reducing access time by over 90% and significantly improving user experience."
+    ]
+  }
+];
 
 // image path relative to public
 export const skillData = [
@@ -36,6 +64,7 @@ export const skillData = [
     data: [
       { name: "mongodb", imgUrl: "/images/db.png" },
       { name: "postgresql", imgUrl: "/images/db.png" },
+      { name: "redis" },
     ],
   },
   {
@@ -47,10 +76,18 @@ export const skillData = [
     ],
   },
   {
+    heading: "AI",
+    data: [
+      { name: "openai apis" },
+      { name: "google gemini apis" },
+      { name: "langchain" },
+      { name: "langgraph" },
+    ],
+  },
+  {
     heading: "GraphQL",
     data: [
       { name: "apollo server and client", imgUrl: "/images/apollo.png" },
-      { name: "relay" },
     ],
   },
   {
