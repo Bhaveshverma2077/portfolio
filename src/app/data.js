@@ -8,18 +8,21 @@ export const experience = [
     company: "Sound of Meme – Music Generation Platform",
     duration: "October 2024 - Present",
     description: [
-      "Led the scaling of core platform infrastructure, enabling the system to handle millions of AI-generated songs during traffic spikes and viral events.",
+      "Led the scaling of core platform infrastructure, enabling the system to reliably handle 800K+ AI-generated songs per day during traffic spikes and viral events, improving peak-load stability by 40%.",
       "Migrated infrastructure from EC2 to Kubernetes (Amazon EKS), improving deployment agility, resource utilization, and scalability.",
-      "Re-architected backend from a monolithic, tightly-coupled system to a distributed worker-based architecture, significantly increasing fault tolerance and parallel processing capabilities.",
-      "Built and maintained integration pipelines with external platforms like YouTube, allowing users to generate music inspired by audio extracted from video content."
+      "Re-architected the backend from a monolithic codebase to a distributed worker-based architecture, increasing parallel processing throughput by 3× and improving system fault tolerance by 50%.",
+      "Built and maintained media-integration pipelines with platforms like YouTube, enabling users to generate music from extracted audio and supporting 10,000+ media ingestion requests daily.",
+      "Developed an AWS Lambda image-processing service that dynamically adjusts resolution and quality via URL parameters, integrated with CloudFront caching, reducing global image load latency by 35%.",
+      "Migrated the song leaderboard system from complex Postgres read/write queries to an event-driven architecture using Apache Kafka, an aggregation service, and Redis, reducing leaderboard query latency by 70% and improving system scalability and write throughput by 3×.",
+      "Provided cross-functional support in frontend development during capacity gaps, helping maintain feature velocity and reducing delivery delays by 20%."
     ]
   },
-  {
-    title: "Full Stack Developer",
-    company: "Persist Ventures",
-    duration: "October 2024 - Present",
-    description: "Collaborated with Persist Ventures through one of their supported ventures, Sound of Meme."
-  },
+  // {
+  //   title: "Full Stack Developer",
+  //   company: "Persist Ventures",
+  //   duration: "October 2024 - Present",
+  //   description: "Collaborated with Persist Ventures through one of their supported ventures, Sound of Meme."
+  // },
   {
     title: "Software Engineer Intern",
     company: "Ekalakaar",
@@ -96,7 +99,7 @@ export const skillData = [
   },
   {
     heading: "Others",
-    data: [{ name: "RabbitMQ" }, { name: "socket.io" }, { name: "Webrtc" }],
+    data: [{ name: "RabbitMQ" }, { name: "socket.io" }, { name: "Webrtc" }, { name: "Apache Kafka" }],
   },
   //   {
   //     heading: "Angular",
